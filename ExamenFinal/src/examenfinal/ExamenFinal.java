@@ -10,11 +10,14 @@ public class ExamenFinal {
         NodoDoble nodo2=new NodoDoble(cancion2);
         NodoDoble nodo3=new NodoDoble(cancion3);
         
-        System.out.println("CANCIONES");
-        nodo1.dato.Reproducir();
-        nodo2.dato.Reproducir();
-        nodo3.dato.Reproducir();
+        Playlist playlist = new Playlist();
+        System.out.println("Playlist");
         
+        playlist.AgregarCancion(cancion1);
+        playlist.AgregarCancion(cancion2);
+        playlist.AgregarCancion(cancion3);
+        
+        playlist.MostrarLista();
     }
     
 }

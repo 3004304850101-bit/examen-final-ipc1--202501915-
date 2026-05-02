@@ -10,6 +10,6 @@ public class Cancion extends Multimedia{
     
     @Override
     public void Reproducir(){
-        System.out.println("Reproduciendo canción: "+titulo+" Artista: " +artista+" "+Duracion+" seg");
+        System.out.println("Canción: "+titulo+" Artista: " +artista+" "+Duracion+" seg");
     }
 }
