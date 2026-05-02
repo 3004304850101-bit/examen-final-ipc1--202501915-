@@ -8,8 +8,12 @@ public class Cancion extends Multimedia{
         this.artista=artista;
     }
     
+    public void Cancion(){
+        System.out.println("Canción: "+titulo+" Artista: " +artista+" "+Duracion+" seg");
+    }
+    
     @Override
     public void Reproducir(){
-        System.out.println("Canción: "+titulo+" Artista: " +artista+" "+Duracion+" seg");
+        System.out.println("Reproduciendo: "+titulo+" Artista: " +artista+" "+Duracion+" seg");
     }
 }

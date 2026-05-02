@@ -18,6 +18,16 @@ public class ExamenFinal {
         playlist.AgregarCancion(cancion3);
         
         playlist.MostrarLista();
+        
+        System.out.println("FLUJO");
+        
+        playlist.siguiente();
+        playlist.siguiente();
+        playlist.anterior();
+        playlist.EliminarActual();
+        
+        System.out.println("Playlist Final");
+        playlist.MostrarLista();
     }
     
 }
